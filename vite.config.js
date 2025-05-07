@@ -21,5 +21,14 @@ export default defineConfig({
       name: "@flizpay-de/banks",
       fileName: "@flizpay-de/banks",
     },
+    rollupOptions: {
+      external: (id) => id.endsWith(".schema.json"),
+      output: {
+        globals: {
+          "@/lib/schemas/bankFields.schema.json": "BankFieldsSchema",
+          "@/lib/schemas/banks.schema.json": "BanksSchema"
+        }
+      }
+    },
   },
 });
