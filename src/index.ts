@@ -1,4 +1,4 @@
-import { BankService, TOP_BANK_ORDER, type Bank } from "@/lib/main";
+import { BanksService, TOP_BANK_ORDER, type Bank } from "@/lib/main";
 
 const bankList = document.querySelector<HTMLUListElement>("#bank-list")!;
 const searchBankInput =
@@ -20,7 +20,7 @@ searchBankInput.addEventListener("input", (event) => {
     return;
   }
 
-  banks = BankService.getBanks(undefined, query, undefined);
+  banks = BanksService.getBanks(undefined, query, undefined);
   renderBanks(banks);
 });
 
@@ -51,7 +51,7 @@ function renderBanks(list: Bank[]) {
 
 function handleSelectBank(bank: Bank) {
   if (bank.group) {
-    banks = BankService.getBanks(undefined, undefined, bank.group);
+    banks = BanksService.getBanks(undefined, undefined, bank.group);
     renderBanks(banks);
   }
 }
