@@ -1,18 +1,18 @@
-import BankFieldsSchema from "@/lib/schemas/bankFields.schema.json";
-import BankSchema from "@/lib/schemas/banks.schema.json";
+import BankFieldsSchema from "./schemas/bankFields.schema.json";
+import BankSchema from "./schemas/banks.schema.json";
 import type {
   Bank,
   BankFields,
   BankFieldsSchemaType,
   BankSchemaType,
-} from "@/lib/types";
+} from "./types";
 
 /**
  * Service to handle bank-related operations.
  * This service provides methods to retrieve bank information, including
  * bank fields and filtering banks based on various criteria.
  */
-export class BankService {
+export class BanksService {
   // ************************************************************************
   // ********************** PUBLIC METHODS **********************************
   // ************************************************************************

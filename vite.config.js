@@ -13,8 +13,14 @@ export default defineConfig({
       tsconfigPath: "./tsconfig.json",
       rollupTypes: true,
       insertTypesEntry: true,
+      staticImport: true,
     }),
   ],
+  resolve: {
+    alias: {
+      '@/lib': resolve(__dirname, 'lib')
+    }
+  },
   build: {
     lib: {
       entry: resolve(__dirname, "lib/main.ts"),
