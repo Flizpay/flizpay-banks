@@ -14,14 +14,14 @@ export default defineConfig({
       rollupTypes: true,
       insertTypesEntry: true,
       staticImport: true,
-      include: ['lib/**/*.ts'],
-      entryRoot: './lib',
+      include: ["lib/**/*.ts"],
+      entryRoot: "./lib",
     }),
   ],
   resolve: {
     alias: {
-      '@/lib': resolve(__dirname, 'lib')
-    }
+      "@/lib": resolve(__dirname, "lib"),
+    },
   },
   build: {
     lib: {
@@ -29,14 +29,17 @@ export default defineConfig({
       name: "@flizpay-de/banks",
       fileName: "@flizpay-de/banks",
     },
+    resolve: {
+      "@/lib": resolve(__dirname, "lib"),
+    },
     rollupOptions: {
       external: (id) => id.endsWith(".schema.json"),
       output: {
         globals: {
           "@/lib/schemas/bankFields.schema.json": "BankFieldsSchema",
-          "@/lib/schemas/banks.schema.json": "BanksSchema"
-        }
-      }
+          "@/lib/schemas/banks.schema.json": "BanksSchema",
+        },
+      },
     },
   },
 });

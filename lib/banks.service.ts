@@ -1,11 +1,11 @@
-import BankFieldsSchema from "./schemas/bankFields.schema.json";
-import BankSchema from "./schemas/banks.schema.json";
+import BankFieldsSchema from "@/lib/schemas/bankFields.schema.json";
+import BankSchema from "@/lib/schemas/banks.schema.json";
 import type {
   Bank,
   BankFields,
   BankFieldsSchemaType,
   BankSchemaType,
-} from "./types";
+} from "@/lib/types";
 
 /**
  * Service to handle bank-related operations.
