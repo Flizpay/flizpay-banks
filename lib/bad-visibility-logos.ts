@@ -1,0 +1,17 @@
+export const BAD_VISIBILITY_LOGOS = [
+  "Hauck Aufhäuser Lampe Privatbank",
+  "Degussa Bank",
+  "Bankhaus Neelmeyer",
+  "akf bank",
+  "Baader Bank",
+  "Landesbank Saar",
+  "Otto M. Schröder Bank",
+  "Bank für Sozialwirtschaft",
+  "Bank für Kirche und Diakonie",
+  "Pax-Bank",
+  "Frankfurter Bankgesellschaft (Deutschland)",
+  "AgrarBank",
+  "Marcard, Stein & Co Bankiers",
+  "Opel Bank",
+  "GEFA BANK",
+];
