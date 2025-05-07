@@ -1,7 +1,7 @@
 {
   "name": "@flizpay-de/banks",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist",
@@ -9,10 +9,12 @@
   ],
   "main": "./dist/@flizpay-de/banks.umd.cjs",
   "module": "./dist/@flizpay-de/banks.js",
+  "types": "./dist/@flizpay-de/banks.d.ts",
   "exports": {
     ".": {
       "import": "./dist/@flizpay-de/banks.js",
-      "require": "./dist/@flizpay-de/banks.umd.cjs"
+      "require": "./dist/@flizpay-de/banks.umd.cjs",
+      "types": "./dist/@flizpay-de/banks.d.ts"
     }
   },
   "scripts": {
