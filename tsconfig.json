@@ -5,6 +5,10 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "paths": {
+      "@/src/*": ["./src/*"],
+      "@/lib/*": ["./lib/*"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -21,5 +25,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "lib"]
 }

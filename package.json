@@ -1,8 +1,19 @@
 {
-  "name": "flizpay-banks",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@flizpay-de/banks",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/my-lib.umd.cjs",
+  "module": "./dist/my-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-lib.js",
+      "require": "./dist/my-lib.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,6 +21,8 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }

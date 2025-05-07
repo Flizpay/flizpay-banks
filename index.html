@@ -2,12 +2,83 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>FLIZpay Banks</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .search-bank {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+      }
+      .bank-list {
+        padding: 0;
+        height: 500px;
+        width: 400px;
+        overflow: auto;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+      }
+      li {
+        margin-bottom: 0.25rem;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 0.5rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <div id="app" class="container">
+      <h1>FLIZpay Banks</h1>
+      <p>Welcome to the FLIZpay Banks package!</p>
+
+      <section>
+        <label for="search-bank" class="search-bank">
+          <span>Search for a bank:</span>
+          <input type="text" id="search-bank" placeholder="Enter bank name" />
+        </label>
+
+        <button
+          id="reset-button"
+          style="background-color: dimgrey; width: unset"
+        >
+          Reset
+        </button>
+
+        <ul id="bank-list" class="bank-list">
+          <!-- List of banks will be populated here -->
+        </ul>
+      </section>
+    </div>
+    <script type="module" src="/src/index.ts"></script>
   </body>
 </html>
