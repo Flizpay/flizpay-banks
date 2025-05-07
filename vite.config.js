@@ -14,6 +14,8 @@ export default defineConfig({
       rollupTypes: true,
       insertTypesEntry: true,
       staticImport: true,
+      include: ['lib/**/*.ts'],
+      entryRoot: './lib',
     }),
   ],
   resolve: {
