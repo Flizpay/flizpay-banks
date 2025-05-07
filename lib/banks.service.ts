@@ -77,7 +77,7 @@ export class BanksService {
 
       // If we reach here, the bank has passed all specified filters
       return true;
-    }).map((bank) => this.serializeBank(bank as BankSchemaType));
+    }).map((bank) => BanksService.serializeBank(bank as BankSchemaType));
   }
 
   /**
@@ -87,12 +87,12 @@ export class BanksService {
    */
   public static getBank(bankId: string): Bank | undefined {
     const bankSchema = BankSchema.find(
-      (bank) => this.getId(bank as BankSchemaType) === bankId
+      (bank) => BanksService.getId(bank as BankSchemaType) === bankId
     );
 
     if (!bankSchema) return;
 
-    return this.serializeBank(bankSchema as BankSchemaType);
+    return BanksService.serializeBank(bankSchema as BankSchemaType);
   }
 
   /**
@@ -106,11 +106,14 @@ export class BanksService {
     language: string
   ): BankFields | undefined => {
     const fields = BankFieldsSchema.find(
-      (bankField) => this.getBankId(bankField) === bankId
+      (bankField) => BanksService.getBankId(bankField) === bankId
     );
 
     if (fields) {
-      const translatedFields = this.getFieldByLanguage(fields, language);
+      const translatedFields = BanksService.getFieldByLanguage(
+        fields,
+        language
+      );
       return {
         total: fields.total,
         ...translatedFields,
@@ -148,7 +151,7 @@ export class BanksService {
    */
   public static serializeBank(bank: BankSchemaType): Bank {
     return {
-      _id: this.getId(bank),
+      _id: BanksService.getId(bank),
       logoUrl: bank.logoUrl,
       name: bank.name,
       yaxiId: bank.yaxiId as string,
