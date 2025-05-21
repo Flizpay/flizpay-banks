@@ -11,16 +11,6 @@ export const TOP_BANK_ORDER: Bank[] = [
     yaxiId: "98f74728-dd04-492f-9f47-60943ab79b30",
   },
   {
-    _id: "65fb2564429176a59c86e995",
-    name: "ING-DiBa",
-    logoUrl:
-      "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/ing.png",
-    yaxiName: "ING",
-    isInstant: false,
-    turnInstantDate: "09.10.2025",
-    yaxiId: "2c882aff-19dd-4e50-8630-c55abcbc4eb3",
-  },
-  {
     _id: "65fb2564429176a59c86edfb",
     name: "Volksbank Raiffeisenbank",
     logoUrl:
@@ -131,6 +121,16 @@ export const TOP_BANK_ORDER: Bank[] = [
     yaxiId: "d56c5d3d-710b-45cb-8ab3-2155d21c7ca5",
   },
   {
+    _id: "65fb2564429176a59c86e995",
+    name: "ING-DiBa",
+    logoUrl:
+      "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/ing.png",
+    yaxiName: "ING",
+    isInstant: false,
+    turnInstantDate: "09.10.2025",
+    yaxiId: "2c882aff-19dd-4e50-8630-c55abcbc4eb3",
+  },
+  {
     _id: "65fb2564429176a59c86e97f",
     name: "Targobank",
     logoUrl:
@@ -175,14 +175,5 @@ export const TOP_BANK_ORDER: Bank[] = [
     tag: "hvb",
     isInstant: true,
     yaxiId: "f12fca1d-af71-4898-9782-cce1b3e3d1f1",
-  },
-  {
-    _id: "65fb2564429176a59c86edf9",
-    name: "Consorsbank",
-    logoUrl:
-      "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/consors.png",
-    isInstant: false,
-    turnInstantDate: "09.10.2025",
-    yaxiId: "6628f732-9caa-415b-9d4e-4be3f757f842",
   },
 ];
