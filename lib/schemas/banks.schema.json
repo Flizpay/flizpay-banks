@@ -1194,18 +1194,6 @@
   },
   {
     "_id": {
-      "$oid": "65fb2564429176a59c86e99d"
-    },
-    "name": "Consorsbank",
-    "isTop": true,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/consors.png",
-    "yaxiName": "BNP Paribas Niederlassung Deutschland (Consorsbank)",
-    "isInstant": false,
-    "turnInstantDate": "09.10.2025",
-    "yaxiId": "6628f732-9caa-415b-9d4e-4be3f757f842"
-  },
-  {
-    "_id": {
       "$oid": "65fb2564429176a59c86e99e"
     },
     "name": "Berliner Sparkasse",
@@ -6944,18 +6932,6 @@
   },
   {
     "_id": {
-      "$oid": "65fb2564429176a59c86eb88"
-    },
-    "name": "PSD Bank Nord (Bremen)",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
-    "yaxiName": "PSD Bank Nord (Bremen)",
-    "group": "psd",
-    "isInstant": true,
-    "yaxiId": "337a82b6-c0da-433d-bdd5-97325a34d9b0"
-  },
-  {
-    "_id": {
       "$oid": "65fb2564429176a59c86eb89"
     },
     "name": "Volksbank Osterholz-Scharmbeck",
@@ -9450,18 +9426,6 @@
   },
   {
     "_id": {
-      "$oid": "65fb2564429176a59c86ec68"
-    },
-    "name": "PSD Bank Trier Ndl der PSD Bank West",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
-    "yaxiName": "PSD Bank Trier Ndl der PSD Bank West",
-    "group": "psd",
-    "isInstant": true,
-    "yaxiId": "5d9d45b1-308a-4673-bc42-f4b58a4e02f4"
-  },
-  {
-    "_id": {
       "$oid": "65fb2564429176a59c86ec6a"
     },
     "name": "Raiffeisenbank Westeifel",
@@ -9471,18 +9435,6 @@
     "group": "volksbank",
     "isInstant": true,
     "yaxiId": "676b3750-b466-4b89-a6f0-a7d6ce0325a8"
-  },
-  {
-    "_id": {
-      "$oid": "65fb2564429176a59c86ec6b"
-    },
-    "name": "PSD Bank RheinNeckarSaar (Saarbrücken)",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
-    "yaxiName": "PSD Bank RheinNeckarSaar (Saarbrücken)",
-    "group": "psd",
-    "isInstant": true,
-    "yaxiId": "f6db04a2-0af1-432b-b669-01261dd71921"
   },
   {
     "_id": {
@@ -10000,10 +9952,10 @@
     "_id": {
       "$oid": "65fb2564429176a59c86ec9a"
     },
-    "name": "PSD Bank RheinNeckarSaar (Stuttgart)",
+    "name": "PSD Bank RheinNeckarSaar",
     "isTop": false,
     "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
-    "yaxiName": "PSD Bank RheinNeckarSaar (Stuttgart)",
+    "yaxiName": "PSD Bank RheinNeckarSaar",
     "group": "psd",
     "isInstant": true,
     "yaxiId": "6cbe0d7e-0cb9-42b2-b137-9570ba18e830"
@@ -11034,18 +10986,6 @@
     "group": "volksbank",
     "isInstant": true,
     "yaxiId": "a5d063eb-8b49-44b4-b414-4db5e3e0ccb3"
-  },
-  {
-    "_id": {
-      "$oid": "65fb2564429176a59c86ecfa"
-    },
-    "name": "PSD Bank RheinNeckarSaar (Freiburg)",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
-    "yaxiName": "PSD Bank RheinNeckarSaar (Freiburg)",
-    "group": "psd",
-    "isInstant": true,
-    "yaxiId": "ae0b5fae-beb9-49c3-9ae2-eadc4938918b"
   },
   {
     "_id": {
@@ -13969,15 +13909,6 @@
     "isTop": true,
     "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/sparda.png",
     "group": "sparda"
-  },
-  {
-    "_id": {
-      "$oid": "65fb2564429176a59c86edf9"
-    },
-    "name": "Consorsbank",
-    "isTop": true,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/consors.png",
-    "group": "consors"
   },
   {
     "_id": {

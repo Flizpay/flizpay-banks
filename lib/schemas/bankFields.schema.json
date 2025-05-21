@@ -15,7 +15,7 @@
       "$oid": "667995f2282d11205be21366"
     },
     "total": 1,
-    "userField1_en": "Login Name / User Number",
+    "userField1_en": "Username / Participant number",
     "bankId": {
       "$oid": "65fb2564429176a59c86e932"
     },
@@ -7864,19 +7864,6 @@
   },
   {
     "_id": {
-      "$oid": "667995f2282d11205be215ba"
-    },
-    "total": 2,
-    "userField1_en": "PSD-Key or Alias",
-    "password_en": "PIN",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86eb88"
-    },
-    "userField1_de": "PSD-Key oder Alias",
-    "password_de": "PIN"
-  },
-  {
-    "_id": {
       "$oid": "667995f2282d11205be215bb"
     },
     "total": 2,
@@ -10763,19 +10750,6 @@
   },
   {
     "_id": {
-      "$oid": "667995f2282d11205be21699"
-    },
-    "total": 2,
-    "userField1_en": "PSD-Key or Alias",
-    "password_en": "PIN",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86ec68"
-    },
-    "userField1_de": "PSD-Key oder Alias",
-    "password_de": "PIN"
-  },
-  {
-    "_id": {
       "$oid": "667995f2282d11205be2169a"
     },
     "total": 2,
@@ -10798,19 +10772,6 @@
       "$oid": "65fb2564429176a59c86ec6a"
     },
     "userField1_de": "VR-NetKey oder Alias",
-    "password_de": "PIN"
-  },
-  {
-    "_id": {
-      "$oid": "667995f2282d11205be2169c"
-    },
-    "total": 2,
-    "userField1_en": "PSD-Key or Alias",
-    "password_en": "PIN",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86ec6b"
-    },
-    "userField1_de": "PSD-Key oder Alias",
     "password_de": "PIN"
   },
   {
@@ -12657,19 +12618,6 @@
       "$oid": "65fb2564429176a59c86ecf9"
     },
     "userField1_de": "VR-NetKey oder Alias",
-    "password_de": "PIN"
-  },
-  {
-    "_id": {
-      "$oid": "667995f2282d11205be2172b"
-    },
-    "total": 2,
-    "userField1_en": "PSD-Key or Alias",
-    "password_en": "PIN",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86ecfa"
-    },
-    "userField1_de": "PSD-Key oder Alias",
     "password_de": "PIN"
   },
   {
