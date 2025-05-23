@@ -176,4 +176,13 @@ export const TOP_BANK_ORDER: Bank[] = [
     isInstant: true,
     yaxiId: "f12fca1d-af71-4898-9782-cce1b3e3d1f1",
   },
+  {
+    _id: "65fb2564429176a59c86edf9",
+    name: "Consorsbank",
+    logoUrl:
+      "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/consors.png",
+    isInstant: false,
+    turnInstantDate: "09.10.2025",
+    yaxiId: "6628f732-9caa-415b-9d4e-4be3f757f842",
+  },
 ];

@@ -1194,6 +1194,18 @@
   },
   {
     "_id": {
+      "$oid": "65fb2564429176a59c86e99d"
+    },
+    "name": "Consorsbank",
+    "isTop": true,
+    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/consors.png",
+    "yaxiName": "BNP Paribas Niederlassung Deutschland (Consorsbank)",
+    "isInstant": false,
+    "turnInstantDate": "09.10.2025",
+    "yaxiId": "6628f732-9caa-415b-9d4e-4be3f757f842"
+  },
+  {
+    "_id": {
       "$oid": "65fb2564429176a59c86e99e"
     },
     "name": "Berliner Sparkasse",
