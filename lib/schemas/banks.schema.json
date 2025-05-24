@@ -1745,18 +1745,6 @@
   },
   {
     "_id": {
-      "$oid": "65fb2564429176a59c86e9cb"
-    },
-    "name": "Stadtsparkasse Wunstorf",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/sparkasse.png",
-    "yaxiName": "Stadtsparkasse Wunstorf",
-    "group": "sparkasse",
-    "isInstant": true,
-    "yaxiId": "d5f616b9-9083-40fa-92d1-f5ecc9a3331f"
-  },
-  {
-    "_id": {
       "$oid": "65fb2564429176a59c86e9cc"
     },
     "name": "Sparkasse Hameln-Weserbergland",
@@ -4515,24 +4503,12 @@
   },
   {
     "_id": {
-      "$oid": "65fb2564429176a59c86eab7"
-    },
-    "name": "Sparkasse Donauwörth",
-    "isTop": false,
-    "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/sparkasse.png",
-    "yaxiName": "Sparkasse Donauwörth",
-    "group": "sparkasse",
-    "isInstant": true,
-    "yaxiId": "e410ff2e-95fd-40b2-91da-9a98a7664c63"
-  },
-  {
-    "_id": {
       "$oid": "65fb2564429176a59c86eab8"
     },
-    "name": "Sparkasse Dillingen-Nördlingen",
+    "name": "Sparkasse Nordschwaben",
     "isTop": false,
     "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/sparkasse.png",
-    "yaxiName": "Sparkasse Dillingen-Nördlingen",
+    "yaxiName": "Sparkasse Nordschwaben",
     "group": "sparkasse",
     "isInstant": true,
     "yaxiId": "ebd9bb20-da3a-4b3a-bd15-ba90631b953c"

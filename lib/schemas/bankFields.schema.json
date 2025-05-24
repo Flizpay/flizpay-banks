@@ -2079,19 +2079,6 @@
   },
   {
     "_id": {
-      "$oid": "667995f2282d11205be213fd"
-    },
-    "total": 2,
-    "userField1_en": "Login Name",
-    "password_en": "PIN / Password",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86e9cb"
-    },
-    "userField1_de": "Anmeldename",
-    "password_de": "PIN / Passwort"
-  },
-  {
-    "_id": {
       "$oid": "667995f2282d11205be213fe"
     },
     "total": 2,
@@ -5141,19 +5128,6 @@
     "password_en": "PIN / Password",
     "bankId": {
       "$oid": "65fb2564429176a59c86eab6"
-    },
-    "userField1_de": "Anmeldename",
-    "password_de": "PIN / Passwort"
-  },
-  {
-    "_id": {
-      "$oid": "667995f2282d11205be214e9"
-    },
-    "total": 2,
-    "userField1_en": "Login Name",
-    "password_en": "PIN / Password",
-    "bankId": {
-      "$oid": "65fb2564429176a59c86eab7"
     },
     "userField1_de": "Anmeldename",
     "password_de": "PIN / Passwort"
