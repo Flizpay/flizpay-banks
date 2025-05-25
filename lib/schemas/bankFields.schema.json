@@ -15939,7 +15939,7 @@
     },
     "total": 0,
     "bankId": {
-      "$oid": "666816b7941999eezdd917b4"
+      "$oid": "6833078a595c84df546eff99"
     }
   },
   {
@@ -15950,7 +15950,7 @@
     "userField1_en": "User ID",
     "password_en": "PIN / Password",
     "bankId": {
-      "$oid": "696816b7941999eyzddm17b4"
+      "$oid": "683307fd595c84df546eff9a"
     },
     "userField1_de": "Benutzerkennung",
     "password_de": "PIN / Passwort"

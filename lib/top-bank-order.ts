@@ -158,7 +158,7 @@ export const TOP_BANK_ORDER: Bank[] = [
     yaxiId: "132565f6-16fc-4586-8087-af886d34d4f8",
   },
   {
-    _id: "696816b7941999eyzddm17b4",
+    _id: "683307fd595c84df546eff9a",
     name: "Santander",
     logoUrl:
       "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/santander_logo.png",
