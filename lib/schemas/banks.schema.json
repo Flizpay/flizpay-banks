@@ -13884,7 +13884,7 @@
       "$oid": "65fb2564429176a59c86edf7"
     },
     "name": "PSD Bank",
-    "isTop": false,
+    "isTop": true,
     "logoUrl": "https://flizimages.s3.eu-central-1.amazonaws.com/bank-logos/psd.png",
     "group": "psd",
     "isInstant": true
