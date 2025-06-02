@@ -54,3 +54,18 @@ export type BankFieldsSchemaType = {
   password_de?: string | undefined;
   password_en?: string | undefined;
 };
+
+type TutorialStep = {
+  item: Record<string, string>;
+  listStyle: string;
+  button: string;
+  extra?: string;
+  extraStyle?: string;
+  extraPosition?: string;
+};
+
+export type BankTutorial = {
+  bankName: string;
+  header: Record<string, string>;
+  step: Record<string, TutorialStep>;
+};
