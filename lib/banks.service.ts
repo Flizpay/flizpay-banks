@@ -5,7 +5,9 @@ import type {
   BankFields,
   BankFieldsSchemaType,
   BankSchemaType,
+  BankTutorial,
 } from "@/lib/types";
+import { BANK_CREDENTIALS_TUTORIAL } from "./main";
 
 /**
  * Service to handle bank-related operations.
@@ -134,6 +136,35 @@ export class BanksService {
   public static getId(object: BankSchemaType | BankFieldsSchemaType): string {
     return object._id.$oid;
   }
+
+  /**
+   * Returns the bank credentials tutorial for the specified locale and tutorial key.
+   * @param locale The locale to get the tutorial for.
+   * @param tutorialKey Either the bank id or the bank group.
+   * @returns The bank credentials tutorial for the specified locale and tutorial key
+   */
+  public static getBankCredentialsTutorial(
+    locale: keyof typeof BANK_CREDENTIALS_TUTORIAL,
+    tutorialKey: string
+  ): BankTutorial {
+    const map = BANK_CREDENTIALS_TUTORIAL[locale] as Record<
+      string,
+      BankTutorial
+    >;
+
+    return map[tutorialKey];
+  }
+
+  /**
+   * Checks if a bank has a credentials tutorial for the specified locale and tutorial key.
+   * @param locale The locale to check.
+   * @param tutorialKey Either the bank id or the bank group.
+   * @returns True if the bank has a credentials tutorial for the specified locale and tutorial key, false otherwise.
+   */
+  public static bankHasCredentialsTutorial = (
+    locale: keyof typeof BANK_CREDENTIALS_TUTORIAL,
+    tutorialKey: string
+  ): boolean => !!BanksService.getBankCredentialsTutorial(locale, tutorialKey);
 
   /**
    * Returns the bank ID from a BankFieldsSchemaType object.
